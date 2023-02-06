@@ -3,7 +3,7 @@
 
 set -euf -o pipefail
 
-KUSTOMIZE_VERSION=v4.4.1
+KUSTOMIZE_VERSION=v5.0.0
 
 # Download kustomize binary
 curl -s "https://raw.githubusercontent.com/kubernetes-sigs/kustomize/master/hack/install_kustomize.sh"  | bash
